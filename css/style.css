@@ -1,0 +1,61 @@
+
+.shell { width:881px; padding-left:150px; margin:0 auto; }
+
+#intro { background:url(images/intro.gif) left top repeat-x; }
+
+#intro .shell { background:url(images/intro-slider.jpg) left 289px no-repeat;  height:376px; overflow:hidden; padding:14px 0 0 82px; width:918px; position:relative; }
+
+.slider-holder { width:800px; height:315px; position:relative; }
+
+.slider-holder ul,
+.slider-holder .jcarousel-clip { width:800px; height:313px; overflow:hidden; position:relative; z-index:10; }
+
+.slider-holder ul li { width:800px; height:313px; position:relative; }
+.slider-holder ul li .post-image { position:absolute; top:0; left:0; z-index:11; }
+.slider-holder ul li .post-data { position:absolute; left:0; bottom:0; height:66px; width:800px; background:url(images/transparent-70.png) repeat 0 0 ; z-index:12; }
+.slider-holder ul li .post-data h2 { padding:16px 0 0 30px;  font-size:20px; float:left; color:#fff; }
+.slider-holder ul li .post-data h2 a { color:#fff; }
+
+.slider-holder .buttons { float:right; padding:8px 32px 0 0; }
+.slider-holder .buttons a,
+.slider-holder .buttons a span { float:left; font-size:11px; color:#feffff; height:38px; line-height:38px; background-color: rgba(208, 26, 15, 0.9);  }
+.slider-holder .buttons a { background-position:left; padding-left:17px; text-decoration:none; }
+.slider-holder .buttons a span { background-position:right; padding-right:18px; }
+
+
+.slider-navigation { position:absolute; left:31px; bottom:15px; }
+.slider-navigation ul { list-style:none; }
+.slider-navigation ul li { float:left; padding-right:5px; }
+.slider-navigation ul li a { float:left; width:22px; height:24px; background:url(images/slider-navigation-normal.gif); font-size:0; line-height:0; text-indent:-4000px; }
+.slider-navigation ul li a.active { background:url(images/slider-navigation-active.gif); }
+
+.slider-frame { z-index:15; background:url(images/hole.png); width:844px; height:20px; position:absolute; left:-22px; bottom:0px; }
+
+
+#main { border-bottom:1px solid #d5d7d3; padding:10px 0 25px 0; }
+#main .shell { width:980px; padding-left:0; }
+
+.box { float:left; width:290px; padding-right:18px; }
+.last-box { padding-right:0; }
+
+#main .box .box-image { padding-bottom:6px; }
+#main .box .box-image img { border:2px solid #c3c3c3; }
+
+#main .entry { height:169px; }
+#main .box p { line-height:18px; padding-bottom:17px; text-align:justify;}
+
+#main .partners ul { list-style:none; padding-top:2px; }
+#main .partners ul li { background:url(images/li-border.gif) left bottom repeat-x; padding-bottom:8px; margin-bottom:7px; }
+#main .partners ul li a { padding-left:14px; background:url(images/ul-arrow.gif) left 2px no-repeat; color:#035787; text-decoration:none; }
+#main .partners ul li a:hover { text-decoration:underline; }
+
+#main .blog-posts ul { list-style:none; position:relative; top:-2px; }
+#main .blog-posts ul li { background:url(images/li-border.gif) left bottom repeat-x; line-height:18px; color:#34616d; padding-bottom:5px; margin-bottom:5px; }
+#main .blog-posts ul li a { color:#035787; text-decoration:none; }
+#main .blog-posts ul li a:hover { text-decoration:underline; }
+#main .blog-posts ul li p { padding-bottom:0; margin-bottom:0; }
+
+#main .buttons a,
+#main .buttons a span { float:left; height:32px; line-height:32px; text-decoration:none; background-color: #D01A0F  }
+#main .buttons a { padding-left:12px; font-size:10px; color: #ffffff; }
+#main .buttons a span { padding-right:13px; background-position:right; }
